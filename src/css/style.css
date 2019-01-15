@@ -1,0 +1,88 @@
+@-moz-keyframes light {
+	from {
+		filter: brightness(100%);
+	}
+	50% {
+		filter: brightness(140%);
+	}
+	to {
+		filter: brightness(100%);
+	}
+}
+
+@-webkit-keyframes light {
+	from {
+		-webkit-filter: brightness(100%);
+		filter: brightness(100%);
+	}
+	50% {
+		-webkit-filter: brightness(140%);
+		filter: brightness(140%);
+	}
+	to {
+		-webkit-filter: brightness(100%);
+		filter: brightness(100%);
+	}
+}
+
+@keyframes light {
+	from {
+		-webkit-filter: brightness(100%);
+		filter: brightness(100%);
+	}
+	50% {
+		-webkit-filter: brightness(140%);
+		filter: brightness(140%);
+	}
+	to {
+		-webkit-filter: brightness(100%);
+		filter: brightness(100%);
+	}
+}
+
+.no-radius {
+	border-radius: 0
+}
+
+.light {
+  animation: light 2000ms ease-in-out infinite;
+  -webkit-animation: light 2000ms ease-in-out infinite;
+}
+
+.container {
+	margin-top: 40px;
+}
+
+.prgress-sm {
+	height: 5px;
+}
+
+.navbar-brand {
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.bg-dark {
+	background-color: #222!important;
+}
+
+.list-group-item.active {
+	background-color: #343a40!important;
+	border-color: #343a40!important;
+}
+
+@media (min-width: 576px) {
+	.container {
+		margin-top: 40px;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		margin-top: 40px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		margin-top: 40px;
+	}
+}

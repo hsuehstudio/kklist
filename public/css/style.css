@@ -1,0 +1,33 @@
+
+.container {
+	margin-top: 40px;
+}
+
+.no-radius {
+	border-radius: none !important
+}
+
+.navbar-brand {
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.bg-dark {
+	background-color: #222!important;
+}
+
+@media (min-width: 576px) {
+	.container {
+		margin-top: 40px;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		margin-top: 60px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		margin-top: 40px;
+	}
+}
